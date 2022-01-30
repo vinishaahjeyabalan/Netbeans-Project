@@ -1,0 +1,6 @@
+int x = Integer.parseInt("9");         9
+double y = Double.parseDouble("5");    5.0
+int z = Integer.parseInt("444", 16);   1092
+                          4*16^0 + 4*16^1 + 4*16^2 = 1092
+.parseLong("") 
+.parseInt() also can be replaced with valueof()

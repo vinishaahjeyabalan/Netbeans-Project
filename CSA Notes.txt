@@ -1,0 +1,110 @@
+CSA Chapter 1
+
+Computer System
+-Computer Architecture vs Computer Organization
+-Examples of computer architecture and computer organization
+
+Computer hierarchical nature (highest to lowest level)
+-Structure
+-Function
+
+Function
+-Data processing facility (storage only, storage and external environment)
+-Data storage facility (short or long term)
+-Data movement apparatus
+-Control mechanism (involving all 4 operations)
+
+Structure (Interaction with external environment))
+-Peripheral devices
+-Communication lines
+
+Structure (Internal)
+-CPU
+-Main memory
+-I/O(System bus)
+-System interconnection
+
+Structure (CPU)
+-Control unit
+-Arithmetic and logic unit(ALU)
+-Registers
+-CPU interconnection
+
+History of Computers
+-ENIAC(Electronic Numerical Integrator and Computer)- using vacuum tubes
+-EDVAC(Electronic Discrete Variable Computer)
+ -MBR
+ -MAR
+ -IR
+ -IBR
+ -PC
+ -AC and MQ
+
+-Transistor = smaller, cheaper, dissipates less heat
+-IBM 7094 Configuration
+ -Main different frm IAS computer is the use of data channels
+ -Data channel
+ -Multiplexor
+
+-Integrated circuit
+ -Gate for data processing 
+ -Memory cells for data storage
+
+-LSI, VLSI, ULSI (Scale integration)
+ -Increase in no. of components per chip
+ -Rings of ferromagnetic material (core) to semiconductor memory
+ -Latest is the microprocesssor
+
+
+
+Chapter 2 - Performance concept
+
+-Microprocessor speed (Techniques for contemporary processors)
+ -Pipelining
+ -Branch prediction
+ -Superscalar execution
+ -Data flow analysis
+ -Speculative execution
+
+-Performance balance (to compensate for the mismatch among the 
+ capabilities of various componenents
+ -Increase the no. of bits by making DRAMs wider
+ -Reduce the freq. of memory access
+ -Change DRAM interface efficient by including cache
+ -Increase the interconnect bandwidth btw processors and memory
+
+-Handling of I/O devices
+
+-Improvement in chip organization (To increase processor speed)
+ -Increase hardware speed of processor
+ -Increase size and speed of caches
+ -Change processor organization and architecture
+
+-Problems with clock speed and logic density
+ -Power density ∝ logic density and clock speed
+ -RC delay
+ -Memory access speed(latency) and transfer speed(throughput)
+  lag processor speed
+
+-Multicore (multiple processors on the same chip)
+ -Increase performance without increasing the clock rate
+ -Use two simpler processors rather than one complex processor
+ -With two processors, caches are larger
+ -As cache is larger, create more than one level of cache on a chip
+
+-MIC(many integrated core) vs GPU(graphics processing unit)
+
+-Clock system
+ -Rate of pulses = clock rate / clock speed
+ -One clock pulse = clock cycle / clock tick
+ -Time btw pulses = cycle time
+
+-Performance factors and system attributes
+
+-Characteristics of a benchmark program
+ -Written in high-level language and portable across different 
+  machines
+ -Representative of systems programming, numerical programming 
+  or commercial programming
+ -Can be measured easily
+ -Has wide distribution
