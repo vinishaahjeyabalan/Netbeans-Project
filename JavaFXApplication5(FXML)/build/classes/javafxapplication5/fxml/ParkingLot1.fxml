@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.fxml.ParkingLot1Controller">
+   <children>
+      <AnchorPane layoutX="-46.0" layoutY="-109.0" prefHeight="681.0" prefWidth="772.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="218.0" layoutY="31.0" prefHeight="53.0" prefWidth="341.0" text="Select the parking lot">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="659.0" layoutY="614.0" mnemonicParsing="false" text="Next " />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="483.0" fitWidth="684.0" layoutX="2.0" layoutY="2.0">
+         <image>
+            <Image url="@../../../../../Downloads/parkinglot1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="spot1" layoutX="40.0" layoutY="23.0" mnemonicParsing="false" onAction="#button1Pressed" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P1" />
+      <Button fx:id="spot2" layoutX="40.0" layoutY="76.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P2" />
+      <Button fx:id="spot3" layoutX="40.0" layoutY="130.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P3" />
+      <Button fx:id="spot4" layoutX="40.0" layoutY="184.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P4" />
+      <Button fx:id="spot5" layoutX="40.0" layoutY="238.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P5" />
+      <Button fx:id="spot6" layoutX="40.0" layoutY="291.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P6" />
+      <Button fx:id="spot7" layoutX="40.0" layoutY="345.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P7" />
+      <Button fx:id="spot8" layoutX="40.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P8" />
+      <Button fx:id="spot9" layoutX="153.0" layoutY="23.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P9" />
+      <Button fx:id="spot10" layoutX="153.0" layoutY="76.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P10" />
+      <Button fx:id="spot11" layoutX="153.0" layoutY="130.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P11" />
+      <Button fx:id="spot12" layoutX="153.0" layoutY="184.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P12" />
+      <Button fx:id="spot13" layoutX="153.0" layoutY="238.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P13" />
+      <Button fx:id="spot14" layoutX="153.0" layoutY="291.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P14" />
+      <Button fx:id="spot15" layoutX="153.0" layoutY="345.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P15" />
+      <Button fx:id="spot16" layoutX="153.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P16" />
+      <Button fx:id="spot17" layoutX="423.0" layoutY="23.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P17" />
+      <Button fx:id="spot18" layoutX="423.0" layoutY="76.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P18" />
+      <Button fx:id="spot19" layoutX="423.0" layoutY="130.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P19" />
+      <Button fx:id="spot20" layoutX="423.0" layoutY="184.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P20" />
+      <Button fx:id="spot21" layoutX="423.0" layoutY="238.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P21" />
+      <Button fx:id="spot22" layoutX="423.0" layoutY="291.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P22" />
+      <Button fx:id="spot23" layoutX="423.0" layoutY="345.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P23" />
+      <Button fx:id="spot24" layoutX="423.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P24" />
+      <Button fx:id="spot25" layoutX="535.0" layoutY="23.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P25" />
+      <Button fx:id="spot26" layoutX="535.0" layoutY="76.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P26" />
+      <Button fx:id="spot27" layoutX="535.0" layoutY="130.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P27" />
+      <Button fx:id="spot28" layoutX="535.0" layoutY="184.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P28" />
+      <Button fx:id="spot29" layoutX="535.0" layoutY="238.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P29" />
+      <Button fx:id="spot30" layoutX="535.0" layoutY="291.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P30" />
+      <Button fx:id="spot31" layoutX="535.0" layoutY="345.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P31" />
+      <Button fx:id="spot32" layoutX="535.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #7E7E7E;" text="P32" />
+   </children>
+</AnchorPane>

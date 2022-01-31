@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication5(FXML).jnlp">
+  <information>
+    <title>JavaFXApplication5(FXML)</title>
+    <vendor>Vinishaah Jeyabalan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication5(FXML).jar" size="10746" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication5(FXML)" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication5.fxml.JavaFXApplication5FXML"  name="JavaFXApplication5(FXML)" />
+  <update check="always"/>
+</jnlp>
